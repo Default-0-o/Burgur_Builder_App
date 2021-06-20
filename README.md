@@ -9,7 +9,9 @@ note : to be able to test the database connection and the async logic, connect i
 just in case that it couldn't work with firebase , it's because of the rules ! follow below.
 
 go to rules in firebase realtime database and delete the default and publish this change :
-{
+
+‌
+{‌
   "rules":{ 
   	"Ingredients": {
     	".read": "true",  // 2021-5-7

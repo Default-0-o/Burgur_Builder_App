@@ -48,7 +48,6 @@ const contactData = props => {
 			validation: {
 				required: true,
 				minLength: 5,
-				maxLength: 5,
 				isNumeric: true,
 			},
 			valid: false,
